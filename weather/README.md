@@ -1,6 +1,6 @@
 # cli-weather
 
-![Result example](/ressources/weather.jpg)
+![Weather logo](/weather/ressources/weather.jpg)
 
 
 ### DESCRIPTION
@@ -74,4 +74,4 @@ To show results in metric system use -c
 
 ### RESULTS
 
-![Result example](/ressources/resultExample.PNG)
+![Result example](/weather/ressources/resultExample.PNG)
