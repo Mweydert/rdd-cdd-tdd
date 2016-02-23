@@ -1,7 +1,7 @@
 var assert = require('assert'),
     config = require('./../lib/config');
 
-var units = { type: "string", temp: 12 , wind:12};
+var units = { type: "blabla", temp: 12};
 var ip = '1212';
 
 //create a variable config with the 2 variables previously declared
@@ -14,12 +14,12 @@ describe('Config', function () {
     });
 
     it('after construction, 2 props are populated', function(){
-
+      assert(Config.ip != '');
+      assert(Config.units != null);
     });
 
     it('has correct key types', function(){
        assert(typeof(Config.ip) == "string");
        assert(typeof(Config.units) == "object");
     });
-
 });
