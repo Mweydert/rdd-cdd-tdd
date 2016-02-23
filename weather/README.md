@@ -73,5 +73,10 @@ To show results in metric system use -c
 
 
 ### RESULTS
+You can see a command exampe and the result
 
+
+```sh
+> weather -a courbevoie
+```
 ![Result example](/weather/ressources/resultExample.PNG)
